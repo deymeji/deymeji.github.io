@@ -18,7 +18,7 @@
 }
 
 #inicio .contenido header {
-background-color: rgb(223, 32, 118);
+background-color: rgb(218, 121, 213);
 position: fixed;
 width: 100%;
 z-index: 100;
@@ -34,7 +34,7 @@ top: 0;
 }
 #inicio .contenido header .contenido-header h1{
     text-align: center;
-    color: #f1adbf;
+    color: #f7eff1;
 }
 #inicio .contenido header .contenido-header nav ul {
 list-style: none;
@@ -48,22 +48,23 @@ align-items: center;
    font-weight: 400;
    transition: .5s;
 }    
-#inicio .contenido header .contenido-header nav ul  a:hover{
-color:  #fd94b0;
+#inicio .contenido header .contenido-header nav ul  a:hover {
+color:  #4b0e52;
 }
+
 #inicio .contenido header .contenido-header .redes a{
     text-decoration: none;
-    color: #fff;
+    color: #f8f4f4;
     display: inline-block;
     margin: 10px;
     transition: 5s;
 }
 #inicio .contenido header .contenido-header .redes a:hover{
-    color: #fd94b0;
+    color: #4b0e52;
 
 }
 #inicio .contenido header .contenido-header .seleccionado{
-    color: #ff5080;
+    color: rgb(218, 121, 213);
 }
 #inicio .contenido .presentacion{
     max-width: 1100px;
@@ -78,8 +79,8 @@ color:  #fd94b0;
 }
 
 #inicio .contenido .presentacion .bienvenido{
-    color:  #ff5080;
-    font-size: 40px;
+    color:  rgb(203, 89, 197);
+    font-size: 60px;
     margin-bottom: 25px;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -89,7 +90,7 @@ color:  #fd94b0;
     font-size: 55px;
     margin-bottom: 25px;
     text-align: center;
-    color:  #ff5080;
+    color:  rgb(203, 89, 197);
 }
 #inicio .contenido .presentacion h2 span{
     font-size: 25px;
@@ -115,7 +116,7 @@ color:  #fd94b0;
     transition: 5s;
 }
 #inicio .contenido .presentacion a:hover{
-background-color: #ff5080 ;
+background-color: rgb(203, 89, 197);
 }
 #icono-nav{
     color:#ffff;
@@ -139,7 +140,7 @@ background-color: #ff5080 ;
     padding: 20px;
     width: 120%;
     border-radius: 20px;
-    background-color: rgb(223, 32, 118);
+    background-color: rgb(218, 121, 213);
 }
 #sobremi .sobremi {
     margin: 0 40px;
@@ -149,7 +150,7 @@ font-size: 22px;
 text-transform: uppercase;
 color: #351111;
 text-decoration: underline;
-text-decoration-color: #fa4e99;
+text-decoration-color: rgb(218, 121, 213);
 text-decoration-thickness: 5px;
 }
 #sobremi  .sobremi h2{
@@ -159,7 +160,7 @@ text-decoration-thickness: 5px;
 letter-spacing: 2px;
 }
 #sobremi .sobremi h2 span{
-    color: #fd94b0;;
+    color: rgb(218, 121, 213);
 }
 #sobremi .sobremi h3{
     font-size: 18px;
@@ -186,8 +187,8 @@ letter-spacing: 2px;
     transition: 5s;
 }
 #sobremi  .sobremi a:hover{
-    background-color: #fe77a9;
-    color: #fff ;
+    background-color: rgb(218, 121, 213);
+    color: #0b0a0a ;
 }
 h3{
     font-size: 25px; 
@@ -196,7 +197,7 @@ h3{
 
 /*seccion habilidades*/
 .contenedor-skills{
-    background: linear-gradient(#eb5a5acc, rgba(33,16,16,.8)), url("../imagen/inicio1.png");
+    background: linear-gradient(rgb(203, 89, 197), rgba(33,16,16,.8)), url("../imagen/inicio1.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +225,7 @@ h3{
 /*seccion capacitaciones*/
 #capacitaciones {
     padding: 100px 15px;
-    background: linear-gradient(#eb5a5acc, rgba(33,16,16,.8)), url("../imagen/2.jpg");
+    background: linear-gradient(rgb(224, 152, 221), rgba(33,16,16,.8)), url("../imagen/2.jpg");
 }
 
 #capacitaciones .titulo-seccion {
@@ -233,7 +234,7 @@ h3{
 }
 
 #capacitaciones .contenedor-capa{
-   
+
     display: flex;
     justify-content: center;
     margin-top: 55px;
@@ -253,7 +254,7 @@ h3{
     margin: 0  15px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 10px 18px #fb04b9;
+    box-shadow: 0px 10px 18px rgb(29, 0, 27);
 }
 #capacitaciones .contenedor-capa .infor{
         color: rgb(243, 241, 241);
@@ -275,7 +276,6 @@ h3{
     text-decoration-thickness: 5px;
 }
 #portfolio .contenedor-proyecto{
-   
     display: flex;
     justify-content: center;
     margin-top: 55px;
@@ -296,7 +296,7 @@ h3{
     margin: 0  15px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 10px 18px #fb04b9;
+    box-shadow: 0px 10px 18px #4b0e52;
 }
 #portfolio .contenedor-proyecto .card:hover .imagen {
     filter: grayscale(0);
@@ -306,8 +306,8 @@ h3{
 #portfolio .contenedor-proyecto .info{
         position: absolute;
         left: 0;
-        background-color: rgb(247, 49, 125);
-        color: rgb(8, 8, 8);
+        background-color: #4b0e52;
+        color: rgb(248, 246, 246);
         width: 100%;
         padding: 10px;
         opacity: 0;
@@ -325,7 +325,7 @@ h3{
 
 #contacto {
     padding: 100px 15px;
-    background: linear-gradient(#eb5a5acc, rgba(33,16,16,.8)), url("../imagen/inicio.jpg");
+    background: linear-gradient(#4b0e52, rgba(248, 246, 246, 0.8)), url("../imagen/inicio.jpg");
 }
 
 #contacto .titulo-seccion {
@@ -352,7 +352,7 @@ h3{
     
     border-radius: 20px;
     border: none;
-    border: 1px solid rgb(223, 32, 118);
+    border: 1px solid #4b0e52;
 }
 /*
 #contacto textarea{
@@ -376,7 +376,7 @@ h3{
     text-transform: uppercase;
     color: #f7f7f9;
     text-decoration: underline;
-    text-decoration-color: rgb(223, 32, 118);
+    text-decoration-color: #be54ca;
     text-decoration-thickness: 5px;
 }
 
@@ -389,7 +389,7 @@ h3{
 }
 
 #contacto .btn-enviar:hover {
-    background-color: #ff5080;
+    background-color: rgb(203, 89, 197);
     color: #fff;
 }
 /*seccion footer*/
@@ -400,7 +400,7 @@ footer p{
     color:#fff;
 }
 #contene{
-    background-color: rgb(223, 32, 118);
+    background-color: rgb(203, 89, 197);
 text-align: center; 
  }
  footer a {
