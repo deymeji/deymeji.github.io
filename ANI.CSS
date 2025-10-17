@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Montserrat:ital,wght@0,500;1,100;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+#html{
+    scroll-behavior: smooth;
+}
+/*seccion inicio*/
+#inicio{
+    background: linear-gradient( rgba(0, 0, .7), rgba(0, 0, .7)), ;
+    background-image: url(../A/imagen/4.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 150vh;
+    
+}
+
+#inicio .contenido header {
+background-color: rgb(151, 243, 248);
+position: fixed;
+width: 100%;
+z-index: 100;
+top: 0;
+}
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+   
+}
+
+#inicio .contenido header .contenido-header nav ul {
+list-style: none;
+display: flex;
+align-items: center;
+font-family: 'Allura', cursive;
+}
+#inicio .contenido header .contenido-header nav ul li a {
+   text-decoration: none;
+   color: #053735;
+   margin: 0 12px;
+   font-weight: 400;
+   transition: .5s;
+   font-family: 'Allura', cursive;
+   font-size: 40px; /* Puedes aumentarlo porque Allura es más delgada */
+    margin-bottom: 35px;
+}    
+#inicio .contenido header .contenido-header nav ul  a:hover {
+color:  #0c0c0c;
+}
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: rgb(249, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#inicio .contenido .presentacion h1{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+    color:  rgb(217, 228, 228);
+   margin-top: 300px;
+   
+}
+#inicio .contenido .presentacion h1 {
+    font-family: 'Allura', cursive;
+    font-size: 110px; /* Puedes aumentarlo porque Allura es más delgada */
+    margin-bottom: 455px;
+    text-align: center;
+    color: #053735;
+   letter-spacing: 5px;
+}
+
+
+
+
+/*seccion momentos*/
+#momentos{
+    scroll-margin-top: 40px;
+    padding: 40px 0;
+    text-align: center;
+    background: #fff;
+    background-image: url(imagen/40.jpg);
+    background-size: cover;
+}
+
+#momentos h1 {
+    font-family: 'Allura', cursive;
+    font-size: 40px; 
+    margin-bottom: 5px;
+    text-align: center;
+    color:  #053735;
+   letter-spacing: 5px;
+}
+
+
+.slider{
+    max-width: 1200px;
+    width: 110%;
+    height: 100vh;
+    margin:  auto ;
+    overflow: hidden;
+    position: relative; 
+    border-radius: 10px;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+
+    width: 700%;
+    animation:  slide 30s infinite ;
+    
+    
+}
+
+.slider  li{
+    list-style: none;
+    width: 50%;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+@keyframes slide {
+    0%{ margin-left: 0%;}
+    20%{ margin-left: 0%;}
+
+    25%{ margin-left: -100%;}
+    45%{ margin-left: -100%;}
+
+    50%{ margin-left: -200%;}
+    70%{ margin-left: -200%;}
+    
+    75%{ margin-left: -300%;}
+    95%{ margin-left: -300%;}
+}
+@media (max-width: 952px){
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    
+    #menu ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(228, 247, 231);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 2;
+        
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+}
+}
+
+
+/* Sección momentos */
+
+
+/*seccion mensajes*/
+
+.contenedor-men {
+    position: relative;
+    border-radius: 15px;
+    color: #053735;
+    text-align: center;
+    padding: 40px 30px;
+    margin: 10px auto;
+    
+  
+    /* Fondo con imagen y degradado transparente */
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.6),  /* blanco suave translúcido */
+        rgba(255, 255, 255, 0.6)
+      ),
+      url("../A/imagen/d422f219-2135-4f03-b850-d467a6483af3.jpg");
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* 🔹 hace que la imagen ocupe todo el fondo */
+    background-attachment: fixed; /* 🔹 le da un efecto bonito tipo parallax */
+  }
+.contenedor-men .men{
+    max-width: 600px;
+    margin: 40px auto;
+}
+.contenedor-men p{
+    font-family: 'Allura', cursive;
+    font-size: 45px; /* Puedes aumentarlo porque Allura es más delgada */
+    
+    text-align: center;
+    color:  rgb(18, 19, 19);
+   letter-spacing: 7px;
+}
+h2{
+    font-family: 'Allura', cursive;
+    font-size: 40px; 
+    margin-bottom: 5px;
+    text-align: center;
+    color:  #053735;
+   letter-spacing: 5px;
+}
+/*
+.contenedor-men {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 60px 40px;
+    text-align: center;
+  
+    /* Fondo con imagen y un color más claro 
+    background: linear-gradient(
+        rgba(173, 216, 230, 0.4),  /* celeste suave y transparente 
+        rgba(173, 216, 230, 0.4)
+      ),
+      url("../A/imagen/d422f219-2135-4f03-b850-d467a6483af3.jpg");
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* 🔹 Muestra la imagen completa sin cortarla 
+    border-radius: 15px;
+    color: #19316b;
+  }*/
