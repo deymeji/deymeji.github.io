@@ -11,7 +11,7 @@
 /*seccion inicio*/
 #inicio{
     background: linear-gradient( rgba(0, 0, .7), rgba(0, 0, .7)), ;
-    background-image: url(../A/imagen/4.jpeg);
+    background-image: url(../imagen/4.jpeg);
     background-size: cover;
     background-position: center center;
     height: 150vh;
@@ -88,12 +88,15 @@ color:  #0c0c0c;
 
 /*seccion momentos*/
 #momentos{
-    scroll-margin-top: 40px;
+    scroll-margin-top: 30px;
     padding: 40px 0;
     text-align: center;
     background: #fff;
-    background-image: url(imagen/40.jpg);
+    background-image: url(../imagen/foto.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 #momentos h1 {
@@ -152,6 +155,60 @@ color:  #0c0c0c;
     75%{ margin-left: -300%;}
     95%{ margin-left: -300%;}
 }
+@media screen and (max-width:800px){
+
+nav{
+       display: none;
+    }
+nav.responsive{
+    display: block;
+    background-color: rgba(246, 241, 241, 0.8);
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    padding: 10px 0;
+}
+nav.responsive ul{
+    display: block !important;
+    text-align: center;
+}
+nav.responsive ul li{
+    margin: 5px 0;
+}
+#icono-nav{
+    display: block;
+}
+#inicio .contenido .presentacion h1{
+font-size: 40px;
+}
+#momento{
+    padding: 50px 0;
+    display: block;
+}
+#momento .containerslider{
+    max-width: 200px;
+    margin: auto;
+}
+#smomento .containerslider img{
+   padding: 8px;
+   
+}
+#sobremi .sobremi .titulo-seccion{
+    text-align: center;
+}
+#momento .momrnto h1{
+    font-size: 25px;
+    text-align: center;
+}
+#mensaje .contenedor-men{
+    padding: 50px 20px;
+}
+
+
+}
+
+/*
 @media (max-width: 952px){
     nav ul li a{
         font-size: 16px;
@@ -189,7 +246,7 @@ color:  #0c0c0c;
     #check:checked ~ ul{
         left: 0;
 }
-}
+}*/
 
 
 /* Sección momentos */
@@ -199,11 +256,11 @@ color:  #0c0c0c;
 
 .contenedor-men {
     position: relative;
-    border-radius: 15px;
+    border-radius: 25px;
     color: #053735;
     text-align: center;
-    padding: 40px 30px;
-    margin: 10px auto;
+    padding: 100px 40px 60px;
+    margin: 20px auto;
     
   
     /* Fondo con imagen y degradado transparente */
@@ -211,7 +268,7 @@ color:  #0c0c0c;
         rgba(255, 255, 255, 0.6),  /* blanco suave translúcido */
         rgba(255, 255, 255, 0.6)
       ),
-      url("../A/imagen/d422f219-2135-4f03-b850-d467a6483af3.jpg");
+      url("../imagen/d422f219-2135-4f03-b850-d467a6483af3.jpg");
   
     background-repeat: no-repeat;
     background-position: center;
@@ -238,23 +295,3 @@ h2{
     color:  #053735;
    letter-spacing: 5px;
 }
-/*
-.contenedor-men {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 60px 40px;
-    text-align: center;
-  
-    /* Fondo con imagen y un color más claro 
-    background: linear-gradient(
-        rgba(173, 216, 230, 0.4),  /* celeste suave y transparente 
-        rgba(173, 216, 230, 0.4)
-      ),
-      url("../A/imagen/d422f219-2135-4f03-b850-d467a6483af3.jpg");
-  
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain; /* 🔹 Muestra la imagen completa sin cortarla 
-    border-radius: 15px;
-    color: #19316b;
-  }*/
